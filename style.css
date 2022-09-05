@@ -3,19 +3,20 @@
 
 body{
     font-family: 'Acme', sans-serif;
-    /* max-height: 40rem; */
-    
+   
 }
 .container{
    
     text-align: center;
     width: 60%;
     height: 30rem;
+
     background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/153664-blue-background-graphic.jpg?w=420");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    word-spacing: .3rem;
     margin: auto;
-     background
+     
     
 }
 
@@ -55,13 +56,3 @@ body{
    
 }
 
-
-@media only screen and ( max-width : 768px){
-    html{
-       width: 100%;
-       font-size: 85%; 
-    
-    }
-
-   
-}
