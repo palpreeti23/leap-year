@@ -3,19 +3,21 @@
 
 body{
     font-family: 'Acme', sans-serif;
+    max-width: 30rem;
+    margin: auto;
    
 }
 .container{
    
     text-align: center;
-    width: 60%;
     height: 30rem;
-
     background-image: url("https://i2.wp.com/files.123freevectors.com/wp-content/original/153664-blue-background-graphic.jpg?w=420");
     background-repeat: no-repeat;
     background-size: cover;
     word-spacing: .3rem;
-    margin: auto;
+    border-radius: 1rem;
+    box-shadow: 6px 7px #60a5fa;
+   
     
 }
 
